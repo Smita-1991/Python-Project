@@ -5,5 +5,7 @@ import re
 re.compile('''
 (\d\d\d)-\d\d\d-\d\d\d\d
 \d\d\d-\d\d\d-\d\d\d\d
+\d\d\d-\d\d\d
+
 
 ''') 
