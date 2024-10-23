@@ -1,4 +1,5 @@
 import os
+import shutil
 
 filePath=os.path.join('Users','kanaw','OneDrive','Desktop','Smita','Python','Python-Project')
 print(filePath)
@@ -26,4 +27,18 @@ print(os.path.dirname(filePath))
 
 print(filePath.split(os.path.sep))
 
+#To delete the file
+# os.unlink("C:\\Users\\kanaw\\Downloads\\Document.pdf")
+
+#To delete the folder
+# os.rmdir("C:\\Users\\kanaw\\Downloads\\New folder")
+
+#send2trash.send2Trash() will send a file or folder to the recycle bin
+
+print(os.walk("C:\\Users\\kanaw\\Downloads"))
+
+for folderName,subFolderName,fileName in os.walk("C:\\Users\\kanaw\\Downloads\\qwe"):
+        print("folder name is: "+str(folderName))
+        print("sub folder name is: "+str(subFolderName))
+        print("file name is: "+str(fileName))
 
