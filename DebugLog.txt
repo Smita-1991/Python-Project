@@ -1,0 +1,7 @@
+2024-10-16 12:02:36,812-INFO-Starting of the program
+2024-10-16 12:02:36,812-DEBUG-I is (1),Factorial is (1)
+2024-10-16 12:02:36,812-DEBUG-I is (2),Factorial is (1)
+2024-10-16 12:02:36,812-DEBUG-I is (3),Factorial is (2)
+2024-10-16 12:02:36,812-DEBUG-I is (4),Factorial is (6)
+2024-10-16 12:02:36,812-DEBUG-I is (5),Factorial is (24)
+2024-10-16 12:02:36,812-INFO-Ending of the program
